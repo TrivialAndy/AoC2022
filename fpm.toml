@@ -1,0 +1,14 @@
+name = "y2022"
+version = "0.1.0"
+license = "license"
+author = "Andrew Lister"
+maintainer = "TrivialAndy@github"
+copyright = "Copyright 2022, Andrew Lister"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
+[dependencies]
+stdlib = { git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm" }
